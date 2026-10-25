@@ -138,7 +138,7 @@ int login_github(const bund_config *c) {
     }
     free(gt);
 
-    const char *cid = c->github_client_id[0] ? c->github_client_id : getenv("BUND_GITHUB_CLIENT_ID");
+    const char *cid = c->github_client_id[0] ? c->github_client_id : "Ov23ligJJGB452O8ITsP";
     if (!cid || !*cid) {
         puts("Connexion GitHub : il faut un OAuth App avec Device Flow activé.\n"
              "  1. Crée-la sur https://github.com/settings/developers\n"
