@@ -1,0 +1,4 @@
+build/
+*.o
+bund
+tests/test_core
