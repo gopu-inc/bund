@@ -1,0 +1,4 @@
+textual>=0.80
+
+[web]
+streamlit>=1.30
