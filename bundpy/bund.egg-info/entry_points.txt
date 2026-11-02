@@ -1,0 +1,2 @@
+[console_scripts]
+bund = bund.cli:main
